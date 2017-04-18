@@ -1,18 +1,25 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Make json from file human readable
 
 # Quickstart
 
-[TODO]
+```
+>>>from pprint_json import load_data, pretty_print_json
+>>>pretty_print_json(load_data('path/to/json'))
+{
+    "foo": "bar"
+}
+```
 
 Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
-
+{
+    "foo": "bar"
+}
 ```
 
 # Project Goals
